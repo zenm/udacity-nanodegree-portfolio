@@ -192,9 +192,11 @@ Tablet styles
     width: 30%;
     margin: 0 0 1em 0;
   }
+
   footer {
     padding: 0;
   }
+
   .title-featured .featured-title,
   footer h3 {
     font-size: 2.5em;
