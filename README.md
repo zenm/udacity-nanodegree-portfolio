@@ -9,8 +9,11 @@ I'm to design this project to spec, creating a responsive page with images and c
 
 ## How do I view this project?
 ----
-View this project on github.
+1. Clone the project
+2. Double click on index.html
+3. Enjoy
 
 
 ## Thanks
 * [Udacity](udacity.com)
+* [Unsplash](https://unsplash.com/)

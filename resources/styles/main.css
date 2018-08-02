@@ -99,7 +99,8 @@ Featured works
   margin: 0 0 2em 0;
 }
 
-.title-featured .featured-title {
+.title-featured .featured-title,
+footer h3 {
   font-size: 1.5em;
   color: #7d97ad;
   line-height: 1.2em;
@@ -148,6 +149,15 @@ p {
   text-align: center;
 }
 
+footer {
+  padding: 1em;
+}
+footer li {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin: 0 0 2em 0;
+}
+
 /*
 Tablet styles
 */
@@ -182,8 +192,11 @@ Tablet styles
     width: 30%;
     margin: 0 0 1em 0;
   }
-
-  .title-featured .featured-title {
+  footer {
+    padding: 0;
+  }
+  .title-featured .featured-title,
+  footer h3 {
     font-size: 2.5em;
     margin: 0 0 .5em 0;
   }
@@ -217,4 +230,12 @@ Desktop styles
     font-size: 3em;
   }
 
+  footer {
+    padding: 2em 0;
+
+  }
+  footer li {
+    display: inline-block;
+    margin: 0 0 3em 0;
+  }
 }
