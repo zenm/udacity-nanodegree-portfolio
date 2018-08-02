@@ -95,11 +95,15 @@ picture {
 Featured works
 */
 
+.featured-work {
+  margin: 0 0 2em 0;
+}
+
 .title-featured .featured-title {
   font-size: 1.5em;
   color: #7d97ad;
   line-height: 1.2em;
-  margin-bottom: .5em;
+  margin: 0 0 .5em 0;
 }
 
 article a {
@@ -121,7 +125,7 @@ article a {
   transition: .3s ease;
 }
 
-.featured-img:hover .overlay {
+.featured-work a:hover .overlay {
   opacity: 1;
 }
 
@@ -137,6 +141,13 @@ article a {
   color: rgba(45, 60, 73, .7);
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #000;
+  text-align: center;
+}
+
 /*
 Tablet styles
 */
@@ -145,35 +156,36 @@ Tablet styles
   .hero-title-logo {
     padding-bottom: 2em;
   }
-  
+
   img.logo {
     width: 100%;
     max-width: 6rem;
   }
-  
+
   .titles h1 {
     font-size: 3em;
   }
   .titles h2 {
     font-size: 2.5em;
   }
-  
+
   .hero-img {
     margin: 2em 0;
   }
-  
+
   .featured-works {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .featured-work {
     width: 30%;
+    margin: 0 0 1em 0;
   }
-  
+
   .title-featured .featured-title {
     font-size: 2.5em;
-    margin-bottom: .5em;
+    margin: 0 0 .5em 0;
   }
 }
 
@@ -186,23 +198,23 @@ Desktop styles
     width: 100em;
     margin: 0 auto;
   }
-  
+
   .titles, img.logo {
     margin: 0;
   }
-  
+
   img.logo {
     width: 100%;
     height: auto;
     max-width: 8em;
   }
-  
+
   .titles h1 {
     font-size: 4em;
   }
-  
+
   .titles h2 {
     font-size: 3em;
   }
-  
+
 }
