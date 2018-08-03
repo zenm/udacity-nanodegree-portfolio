@@ -50,10 +50,14 @@ Title and logo
   border-bottom: 4px #7d97ad solid;
 }
 
-img.logo {
-  margin: 0 1em;
-  height: auto;
+.title-logo{
   max-width: 5em;
+  margin: 0 1em;
+}
+
+img.logo {
+  height: auto;
+  width: 100%;
 }
 
 .titles {
@@ -152,10 +156,29 @@ p {
 footer {
   padding: 1em;
 }
+
 footer li {
   font-size: 1.25em;
   line-height: 1.2;
   margin: 0 0 2em 0;
+}
+
+/*
+Thanks button styles
+*/
+
+
+.thanks-button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 4px 6px;
+  font-family: -apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+  border-radius: 3px;
 }
 
 /*
@@ -167,9 +190,12 @@ Tablet styles
     padding-bottom: 2em;
   }
 
+  .title-logo {
+    max-width: 6rem;
+  }
+
   img.logo {
     width: 100%;
-    max-width: 6rem;
   }
 
   .titles h1 {
